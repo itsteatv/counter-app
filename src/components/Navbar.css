@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+
+:root {
+  --primary-color: hsl(9, 94%, 61%);
+  --primary-color-alt: hsl(28, 72%, 83%);
+  --second-color: #3e537c;
+  --second-color-alt: hsla(220, 33%, 36%, 65%);
+  --third-color: hsl(220, 36%, 28%);
+  --white-color: #fbfbfb;
+  --white-color-alt: hsl(12, 14%, 93%);
+  --dark-color: hsl(300, 100%, 0%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--second-color-alt);
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--second-color-alt);
+  padding: 1rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: var(--white-color-alt);
+  text-decoration: none;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li.active {
+  background-color: var(--third-color);
+}
+
+.nav li:hover {
+  background-color: var(--second-color);
+}

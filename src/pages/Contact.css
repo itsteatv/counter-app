@@ -1,0 +1,16 @@
+.title-1 {
+  margin: 1rem;
+  font-size: 1.75rem;
+  color: var(--white-color-alt);
+  font-style: italic;
+}
+
+.list li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+
